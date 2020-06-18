@@ -1,0 +1,71 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+.row-header{
+    background-color: rgb(108, 163, 236);
+    margin:0px auto;
+    padding:8px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: #33BAFF;
+    margin:0px auto;
+    padding: 6px;
+}
+
+.title-font{
+    color: black;
+    font-size: 1.5em;
+}
+
+.backgroundcolor{
+    background-color: cadetblue;
+    
+}
+
+.img {
+    
+    float:  center;
+    width:  100px;
+    height: 100px;
+    margin-bottom: 20px;
+    
+}
+
+.with-margin {
+    margin-bottom: 30px;  
+}
+
+.spacer5 {
+    height: 10px;
+  }
+
+.uploadBox {
+  color: blue;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+  float: center;
+  width: 80%;
+  height: 50%;
+  padding: 1em;
+  background: white;
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+
+.uploadBox:hover {
+  cursor: pointer;
+}
